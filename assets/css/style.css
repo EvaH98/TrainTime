@@ -1,0 +1,25 @@
+#jumbotron {
+	text-align: center;
+	
+}
+
+#jumbotron, .card-header {
+	background-color: #7e462f;
+	color: white;
+}
+
+#addTrain {
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+.btn-primary {
+	margin-top: 20px;
+	background-color: #7e462f;
+	border-top: #7e462f;
+	border-color: #7e462f;
+}
+
+.btn-primary:hover {
+	background-color: #573121;
+}
