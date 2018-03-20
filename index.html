@@ -23,7 +23,7 @@
     <h5 class="card-header">Current Train Schedule</h5>
     <div class="card-body">
         <table width="100%" border="0">
-            <tbody id="newRow">
+            <thead id="newRow">
                 <tr id="tableHeaders">
                     <th>Train Name</th>
                     <th>Destination</th>
@@ -31,13 +31,17 @@
                     <th>Next Arrival</th>
                     <th>Minutes Away</th>
                 </tr>
+            </thead>
+
+            <tbody id="trainInfo">
+                
             </tbody>
         </table>
     </div>
 </div>
 
 <div class="card" id="addTrain">
-    <h5 class="card-header">Add Employee</h5>
+    <h5 class="card-header">Add Train</h5>
     <div class="card-body">
         <form>
             <div>
